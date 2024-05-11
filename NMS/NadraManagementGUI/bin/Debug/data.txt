@@ -1,0 +1,2 @@
+file1,ali,Male,okara,233233322323,muhammad ashraf,Punajb,okara,okara,CaronaVac,1,14,7,2005,1200000,21200010,0,19
+file2,ali,Male,okara,233233322323,muhammad ashraf,Punajb,okara,okara,CaronaVac,1,14,7,2005,1200000,21200010,0,19

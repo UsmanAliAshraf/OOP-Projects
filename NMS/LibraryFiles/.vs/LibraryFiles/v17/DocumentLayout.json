@@ -1,0 +1,166 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\OOP\\BusinessApplication\\LibraryFiles\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1B89DF01-D4C7-4E20-B66B-78A2C62ECF1D}|LibraryFiles.csproj|F:\\OOP\\BusinessApplication\\LibraryFiles\\dl\\db\\citizendbcrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B89DF01-D4C7-4E20-B66B-78A2C62ECF1D}|LibraryFiles.csproj|solutionrelative:dl\\db\\citizendbcrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B89DF01-D4C7-4E20-B66B-78A2C62ECF1D}|LibraryFiles.csproj|F:\\OOP\\BusinessApplication\\LibraryFiles\\dl\\db\\complaintdbcrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B89DF01-D4C7-4E20-B66B-78A2C62ECF1D}|LibraryFiles.csproj|solutionrelative:dl\\db\\complaintdbcrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B89DF01-D4C7-4E20-B66B-78A2C62ECF1D}|LibraryFiles.csproj|f:\\oop\\businessapplication\\libraryfiles\\dl\\fh\\citizenfhcrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B89DF01-D4C7-4E20-B66B-78A2C62ECF1D}|LibraryFiles.csproj|solutionrelative:dl\\fh\\citizenfhcrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B89DF01-D4C7-4E20-B66B-78A2C62ECF1D}|LibraryFiles.csproj|F:\\OOP\\BusinessApplication\\LibraryFiles\\dlinterface\\icitizencrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B89DF01-D4C7-4E20-B66B-78A2C62ECF1D}|LibraryFiles.csproj|solutionrelative:dlinterface\\icitizencrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B89DF01-D4C7-4E20-B66B-78A2C62ECF1D}|LibraryFiles.csproj|F:\\OOP\\BusinessApplication\\LibraryFiles\\dl\\fh\\complaintfhcrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B89DF01-D4C7-4E20-B66B-78A2C62ECF1D}|LibraryFiles.csproj|solutionrelative:dl\\fh\\complaintfhcrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B89DF01-D4C7-4E20-B66B-78A2C62ECF1D}|LibraryFiles.csproj|F:\\OOP\\BusinessApplication\\LibraryFiles\\dl\\fh\\muserfhcrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B89DF01-D4C7-4E20-B66B-78A2C62ECF1D}|LibraryFiles.csproj|solutionrelative:dl\\fh\\muserfhcrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B89DF01-D4C7-4E20-B66B-78A2C62ECF1D}|LibraryFiles.csproj|F:\\OOP\\BusinessApplication\\LibraryFiles\\utilities\\objecthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B89DF01-D4C7-4E20-B66B-78A2C62ECF1D}|LibraryFiles.csproj|solutionrelative:utilities\\objecthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B89DF01-D4C7-4E20-B66B-78A2C62ECF1D}|LibraryFiles.csproj|F:\\OOP\\BusinessApplication\\LibraryFiles\\dlinterface\\icomplaintcrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B89DF01-D4C7-4E20-B66B-78A2C62ECF1D}|LibraryFiles.csproj|solutionrelative:dlinterface\\icomplaintcrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B89DF01-D4C7-4E20-B66B-78A2C62ECF1D}|LibraryFiles.csproj|F:\\OOP\\BusinessApplication\\LibraryFiles\\bl\\complaint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B89DF01-D4C7-4E20-B66B-78A2C62ECF1D}|LibraryFiles.csproj|solutionrelative:bl\\complaint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ObjectHandler.cs",
+              "DocumentMoniker": "F:\\OOP\\BusinessApplication\\LibraryFiles\\Utilities\\ObjectHandler.cs",
+              "RelativeDocumentMoniker": "Utilities\\ObjectHandler.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Project\\LibraryFiles\\Utilities\\ObjectHandler.cs*",
+              "ViewState": "AQIAAAkAAACwzMzMzMw7wCQAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T05:02:07.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MUserFHCRUD.cs",
+              "DocumentMoniker": "F:\\OOP\\BusinessApplication\\LibraryFiles\\DL\\FH\\MUserFHCRUD.cs",
+              "RelativeDocumentMoniker": "DL\\FH\\MUserFHCRUD.cs",
+              "ToolTip": "F:\\OOP\\BusinessApplication\\LibraryFiles\\DL\\FH\\MUserFHCRUD.cs",
+              "RelativeToolTip": "DL\\FH\\MUserFHCRUD.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T09:45:41.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CitizenFHCRUD.cs",
+              "DocumentMoniker": "F:\\OOP\\BusinessApplication\\LibraryFiles\\DL\\FH\\CitizenFHCRUD.cs",
+              "RelativeDocumentMoniker": "DL\\FH\\CitizenFHCRUD.cs",
+              "ToolTip": "F:\\OOP\\BusinessApplication\\LibraryFiles\\DL\\FH\\CitizenFHCRUD.cs",
+              "RelativeToolTip": "DL\\FH\\CitizenFHCRUD.cs",
+              "ViewState": "AQIAADEAAABgAAAAAAAqwFMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T18:01:01.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CitizenDBCRUD.cs",
+              "DocumentMoniker": "F:\\OOP\\BusinessApplication\\LibraryFiles\\DL\\DB\\CitizenDBCRUD.cs",
+              "RelativeDocumentMoniker": "DL\\DB\\CitizenDBCRUD.cs",
+              "ToolTip": "F:\\OOP\\BusinessApplication\\LibraryFiles\\DL\\DB\\CitizenDBCRUD.cs",
+              "RelativeToolTip": "DL\\DB\\CitizenDBCRUD.cs",
+              "ViewState": "AQIAAEEAAAAAFQAAAAAcwFAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T07:47:37.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICitizenCRUD.cs",
+              "DocumentMoniker": "F:\\OOP\\BusinessApplication\\LibraryFiles\\DLInterface\\ICitizenCRUD.cs",
+              "RelativeDocumentMoniker": "DLInterface\\ICitizenCRUD.cs",
+              "ToolTip": "F:\\OOP\\BusinessApplication\\LibraryFiles\\DLInterface\\ICitizenCRUD.cs",
+              "RelativeToolTip": "DLInterface\\ICitizenCRUD.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T07:22:33.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ComplaintFHCRUD.cs",
+              "DocumentMoniker": "F:\\OOP\\BusinessApplication\\LibraryFiles\\DL\\FH\\ComplaintFHCRUD.cs",
+              "RelativeDocumentMoniker": "DL\\FH\\ComplaintFHCRUD.cs",
+              "ToolTip": "F:\\OOP\\BusinessApplication\\LibraryFiles\\DL\\FH\\ComplaintFHCRUD.cs",
+              "RelativeToolTip": "DL\\FH\\ComplaintFHCRUD.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T08:57:17.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ComplaintDBCRUD.cs",
+              "DocumentMoniker": "F:\\OOP\\BusinessApplication\\LibraryFiles\\DL\\DB\\ComplaintDBCRUD.cs",
+              "RelativeDocumentMoniker": "DL\\DB\\ComplaintDBCRUD.cs",
+              "ToolTip": "F:\\OOP\\BusinessApplication\\LibraryFiles\\DL\\DB\\ComplaintDBCRUD.cs",
+              "RelativeToolTip": "DL\\DB\\ComplaintDBCRUD.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T15:34:13.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IComplaintCRUD.cs",
+              "DocumentMoniker": "F:\\OOP\\BusinessApplication\\LibraryFiles\\DLInterface\\IComplaintCRUD.cs",
+              "RelativeDocumentMoniker": "DLInterface\\IComplaintCRUD.cs",
+              "ToolTip": "F:\\OOP\\BusinessApplication\\LibraryFiles\\DLInterface\\IComplaintCRUD.cs",
+              "RelativeToolTip": "DLInterface\\IComplaintCRUD.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T15:51:38.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Complaint.cs",
+              "DocumentMoniker": "F:\\OOP\\BusinessApplication\\LibraryFiles\\BL\\Complaint.cs",
+              "RelativeDocumentMoniker": "BL\\Complaint.cs",
+              "ToolTip": "F:\\OOP\\BusinessApplication\\LibraryFiles\\BL\\Complaint.cs",
+              "RelativeToolTip": "BL\\Complaint.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwBcAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T08:57:17.677Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

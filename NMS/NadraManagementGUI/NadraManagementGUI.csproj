@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{08A50BF3-B0B6-45C8-AFE8-8A43B721D3B0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>NadraManagementGUI</RootNamespace>
+    <AssemblyName>NadraManagementGUI</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="LibraryFiles">
+      <HintPath>..\LibraryFiles\bin\Debug\LibraryFiles.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Form1.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Admin.Designer.cs">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmAddCitizen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmAddCitizen.Designer.cs">
+      <DependentUpon>frmAddCitizen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmAddUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmAddUser.Designer.cs">
+      <DependentUpon>frmAddUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmApplicant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmApplicant.Designer.cs">
+      <DependentUpon>frmApplicant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmApplicantComplaint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmApplicantComplaint.Designer.cs">
+      <DependentUpon>frmApplicantComplaint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmApplicantCovid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmApplicantCovid.Designer.cs">
+      <DependentUpon>frmApplicantCovid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmApplicantHealth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmApplicantHealth.Designer.cs">
+      <DependentUpon>frmApplicantHealth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmCnic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmCnic.Designer.cs">
+      <DependentUpon>frmCnic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmComplaint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmComplaint.Designer.cs">
+      <DependentUpon>frmComplaint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmComplaintReply.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmComplaintReply.Designer.cs">
+      <DependentUpon>frmComplaintReply.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmCovid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmCovid.Designer.cs">
+      <DependentUpon>frmCovid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmCovidCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmCovidCard.Designer.cs">
+      <DependentUpon>frmCovidCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmDelete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmDelete.Designer.cs">
+      <DependentUpon>frmDelete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmDeleteAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmDeleteAccount.Designer.cs">
+      <DependentUpon>frmDeleteAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmHealthInspect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmHealthInspect.Designer.cs">
+      <DependentUpon>frmHealthInspect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmInvoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmInvoice.Designer.cs">
+      <DependentUpon>frmInvoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmSearchCitizen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmSearchCitizen.Designer.cs">
+      <DependentUpon>frmSearchCitizen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmSehatApp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmSehatApp.Designer.cs">
+      <DependentUpon>frmSehatApp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmSortedCitizen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmSortedCitizen.Designer.cs">
+      <DependentUpon>frmSortedCitizen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmTokenNo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmTokenNo.Designer.cs">
+      <DependentUpon>frmTokenNo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmTrackApplication.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmTrackApplication.Designer.cs">
+      <DependentUpon>frmTrackApplication.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmViewComplaint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmViewComplaint.Designer.cs">
+      <DependentUpon>frmViewComplaint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\SignUpScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\SignUpScreen.Designer.cs">
+      <DependentUpon>SignUpScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\LoginHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\LoginHome.Designer.cs">
+      <DependentUpon>LoginHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\LoginScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\LoginScreen.Designer.cs">
+      <DependentUpon>LoginScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Form1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Admin.resx">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmAddCitizen.resx">
+      <DependentUpon>frmAddCitizen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmAddUser.resx">
+      <DependentUpon>frmAddUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmApplicant.resx">
+      <DependentUpon>frmApplicant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmApplicantComplaint.resx">
+      <DependentUpon>frmApplicantComplaint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmApplicantCovid.resx">
+      <DependentUpon>frmApplicantCovid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmApplicantHealth.resx">
+      <DependentUpon>frmApplicantHealth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmCnic.resx">
+      <DependentUpon>frmCnic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmComplaint.resx">
+      <DependentUpon>frmComplaint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmComplaintReply.resx">
+      <DependentUpon>frmComplaintReply.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmCovid.resx">
+      <DependentUpon>frmCovid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmCovidCard.resx">
+      <DependentUpon>frmCovidCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmDelete.resx">
+      <DependentUpon>frmDelete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmDeleteAccount.resx">
+      <DependentUpon>frmDeleteAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmHealthInspect.resx">
+      <DependentUpon>frmHealthInspect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmInvoice.resx">
+      <DependentUpon>frmInvoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmSearchCitizen.resx">
+      <DependentUpon>frmSearchCitizen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmSehatApp.resx">
+      <DependentUpon>frmSehatApp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmSortedCitizen.resx">
+      <DependentUpon>frmSortedCitizen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmTokenNo.resx">
+      <DependentUpon>frmTokenNo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmTrackApplication.resx">
+      <DependentUpon>frmTrackApplication.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmViewComplaint.resx">
+      <DependentUpon>frmViewComplaint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\SignUpScreen.resx">
+      <DependentUpon>SignUpScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\LoginHome.resx">
+      <DependentUpon>LoginHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\LoginScreen.resx">
+      <DependentUpon>LoginScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
