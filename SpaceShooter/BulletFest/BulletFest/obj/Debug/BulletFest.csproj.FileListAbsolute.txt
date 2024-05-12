@@ -1,0 +1,13 @@
+C:\Users\Administrator\Desktop\BulletFest\BulletFest\bin\Debug\BulletFest.exe.config
+C:\Users\Administrator\Desktop\BulletFest\BulletFest\bin\Debug\BulletFest.exe
+C:\Users\Administrator\Desktop\BulletFest\BulletFest\bin\Debug\BulletFest.pdb
+C:\Users\Administrator\Desktop\BulletFest\BulletFest\obj\Debug\BulletFest.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\BulletFest\BulletFest\obj\Debug\BulletFest.Form1.resources
+C:\Users\Administrator\Desktop\BulletFest\BulletFest\obj\Debug\BulletFest.Properties.Resources.resources
+C:\Users\Administrator\Desktop\BulletFest\BulletFest\obj\Debug\BulletFest.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\BulletFest\BulletFest\obj\Debug\BulletFest.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\BulletFest\BulletFest\obj\Debug\BulletFest.exe
+C:\Users\Administrator\Desktop\BulletFest\BulletFest\obj\Debug\BulletFest.pdb
+C:\Users\Administrator\Desktop\BulletFest\BulletFest\obj\Debug\Interop.WMPLib.dll
+C:\Users\Administrator\Desktop\BulletFest\BulletFest\obj\Debug\BulletFest.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\BulletFest\BulletFest\obj\Debug\BulletFest.LandingPage.resources
